@@ -23,6 +23,20 @@ h1, h2 {
     border-radius: 0;
 }
 
+/* Custom buttons */
+
+.btn-custom {
+    background-color: #1f7798; /* mid-blue */
+    border-color: #1f7798; /* mid-blue */
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #1d6d8a; /* deep cyan */
+    border-color: #1d6d8a; /* deep cyan */;
+    box-shadow: 0 4px 15px rgba(31, 119, 152, 0.4); /* Adds a soft blue glow */
+    cursor: pointer;
+}
 /* About section */
 
 #about {
